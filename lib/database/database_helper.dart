@@ -71,7 +71,6 @@ class DataBaseHelper{
 
       final result = await db.update('data',data, where: "id = ? ", whereArgs: [id]);
       return result;
-      
     }
 
 
